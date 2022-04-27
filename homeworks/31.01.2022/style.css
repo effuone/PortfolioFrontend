@@ -1,0 +1,56 @@
+header
+{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.news
+{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.post
+{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    font-size: large;
+}
+nav
+{
+    display: inline;
+}
+ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+li
+{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+}
+img
+{
+    width: 100px;
+    height: 100px;
+}
